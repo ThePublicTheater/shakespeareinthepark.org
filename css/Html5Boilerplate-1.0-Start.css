@@ -1,0 +1,178 @@
+﻿/*  HTML5 ✰ Boilerplate  */
+
+.headerImageDiv {
+visibility: visible;
+min-height: 148px;
+margin-top:28px;
+text-align:center;
+white-space:nowrap;
+
+}
+.headerImage1 {
+    min-height: 90px;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 302px;
+    height: 90px;
+}
+.headerImage2 {
+    min-height: 90px;
+    margin-top: 0px;
+    margin-left: 19px;
+    width: 606px;
+    height: 90px;
+}
+.userDiv {
+    text-align: right;
+    margin-right: 5px;
+}
+.noUserDiv {
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.messageDiv {
+    width: 65%;
+    height: 20px;
+    display: none;
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+    min-width: 1000px;
+    margin: 0 auto;
+}
+.inner {
+    width: 905px;
+    margin: 0 auto;
+    min-height:100%;
+    position:relative;
+    padding-bottom:30px;
+}
+form dl + *
+{
+    clear: both;
+    padding-top: 1em;
+}
+
+form dt
+{
+    margin-top: 1em;
+    width: 49%;
+    float: left;
+    clear: both;
+    text-align: right;
+}
+
+form dd
+{
+    margin-top: 1em;
+    width: 49%;
+    float: right;
+    text-align: left;
+}
+.notMobile {
+    display:inline;
+}
+.footerFont {
+font: normal normal normal 13px/1.4em 'Open Sans', sans-serif;
+color: rgb(0, 0, 0);
+}
+.bold {
+font-weight: 700;
+}
+/*
+#socialMediaLinks a {
+margin-right:4px;
+}
+*/
+
+.font_7 {
+font: normal normal normal 16px/1.4em Helvetica, Arial, sans-serif;
+color: rgb(0, 0, 0);
+}
+.font_5 {
+font: normal normal normal 28px/1.4em Helvetica, Arial, sans-serif;
+color: rgb(0, 0, 0);
+}
+.color_3 {
+color: rgb(0, 136, 203);
+}
+.font_6 {
+font: normal normal normal 21px/1.4em 'Open Sans', sans-serif;
+color: rgb(0, 0, 0);
+}
+.font_9 {
+font: normal normal normal 13px/1.4em 'Open Sans', sans-serif;
+color: rgb(0, 0, 0);
+}
+ #content a {
+text-decoration:none;
+cursor:pointer;
+color:inherit;
+color: rgb(0, 136, 203);
+text-transform:uppercase;
+font-weight:700;
+}
+.color_5 {
+color: rgb(237, 28, 36);
+}
+.color_18 {
+color: rgb(255, 21, 0);
+}
+.font_9 {
+font: normal normal normal 13px/1.4em 'Open Sans', sans-serif;
+color: rgb(0, 0, 0);
+}
+html, body
+{
+    height:100%;
+    margin:0px;
+    padding:0px;
+}
+
+#content
+{
+    overflow:hidden;
+    margin: 0 auto -50px;      
+}
+
+
+*{
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+    overflow:hidden;
+}
+.footer, .push {
+    height: 4em;
+}
+.alignCenter {
+    text-align: center;
+}
+
+.font_8 {
+font: normal normal normal 15px/1.4em Helvetica, Arial, sans-serif;
+color: rgb(0, 0, 0);
+}
+.blackbox {
+    background-color:black;
+    color:white;
+    padding: 8px 20px;
+}
+.font_2 {
+font: normal normal normal 23px/1.4em Helvetica, Arial, sans-serif;
+
+}
+.color_18 {
+color: rgb(255, 21, 0);
+}
+.italic {
+font-style: italic;
+}

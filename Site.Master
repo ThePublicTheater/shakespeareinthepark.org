@@ -1,0 +1,234 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="shakespeareinthepark.org.SiteMaster" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <link rel="stylesheet" href="/css/NYSFStandard.css" type="text/css" />
+    <link rel="stylesheet" href="/css/Html5Boilerplate-1.0-End.css" type="text/css" />
+    <link rel="stylesheet" href="/css/shakespeareInThePark.css" type="text/css" />
+    <link rel="stylesheet" href="/css/Html5Boilerplate-1.0-Start.css" media="screen and (min-width:569px)" />
+    <link rel="stylesheet" href="/css/mobile.css" media="handheld, only screen and (max-width:568px)" />
+    <link href="/css/menuStlye.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <div id="outer">
+        <div id="inner">
+
+
+            <asp:Panel ID="message" runat="server" CssClass="messageDiv">
+            </asp:Panel>
+
+
+            <div class="headerImageDiv">
+                <a href="http:\\www.publictheater.org">
+                    <img src="/Images/public.png" class="headerImage1" /></a>
+
+                <a href="http:\\www.shakespeareinthepark.org">
+                    <img src="/Images/public2.png" class="headerImage2" /></a>
+                <div id="menu">
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="item1">
+                                    <a href="/">Home</a>
+
+                                </div>
+                            </td>
+                            <td>
+                                <div class="item2">
+                                    <a href="/content/shows and events">Plays &amp; Events</a>
+
+                                    <div class="item2Overlay">
+                                        <table>
+                                            <tr><td><a href="/content/shows and events/thecomedyoferrors.aspx">The Comedy of Errors</a></td></tr>
+                                            <tr><td> <a href="/content/shows and events/loveslabourslost.aspx">Love's Labour's Lost, a New Musical </a></td></tr>
+                                            <tr><td><a href="/content/shows and events/gala.aspx">Public Theater Gala </a></td></tr>
+                                            <tr><td><a href="/content/shows and events/publicForum.aspx">Public Forum </a></td></tr>
+                                            <tr><td><a href="/content/shows and events/tempest.aspx">Public Works' Tempest </a></td></tr>
+                                            <tr><td><a href="/content/shows and events/fallForDance.aspx">Fall For Dance</a></td></tr>
+                                        </table>
+                               </div>
+
+                                </div>
+                            </td>
+                            <td>
+                                <div class="item3">
+                                    <a href="/content/about">About</a>
+                                    <div class="item3Overlay">
+                                        <table>
+                                            <tr><td><a href="/content/about/history.aspx">History</a></td></tr>
+                                            <tr><td> <a href="/content/about/faq.aspx">FAQ </a></td></tr>
+                                            <tr><td><a href="/content/about/contact.aspx">Contact</a></td></tr>
+                                        </table>
+                                        
+                                        </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="item4">
+                                    <a href="/contents/Plan Your Visit/">Plan Your Visit</a>
+                                    <div class="item4Overlay">
+                                        <table>
+                                            <tr><td><a href="/Content/Plan Your Visit/calendar.aspx">Calendar</a></td></tr>
+                                            <tr><td><a href="/Content/Plan Your Visit/location.aspx">Location &amp; Directions</a></td></tr>
+                                            <tr><td><a href="/Content/Plan Your Visit/food.aspx">Food &amp; Drink</a></td></tr>
+                                            <tr><td><a href="/Content/Plan Your Visit/rain.aspx">Rain &amp; Weather</a></td></tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="item5">
+                                    <a href="/content/Tickets/">Tickets</a>
+                                    <div class="item5Overlay">
+                                        <table>
+                                            <tr><td><a href="/content/Tickets/InthePark.aspx">In the Park</a></td></tr>
+                                            <tr><td><a href="/content/Tickets/VirtualTicketing.aspx">Virtual Ticketing</a></td></tr>
+                                            <tr><td><a href="/content/Tickets/IntheBoroughs.aspx">In the Boroughs</a></td></tr>
+                                            <tr><td> <a href="/content/Tickets/AccessiblePerformances.aspx">Accessible Performances</a></td></tr>
+                                        </table>                                     
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="item6">
+                                    <a href="/content/Support/">Support</a>
+
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div><!--menu-->
+            </div><!--headerImageDiv-->
+
+            <div class="wrapper">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                <div class="push"></div>
+            </div><!--wrapper-->
+
+            <div id="footer">
+                <div id="footer_text">
+                    <span class="bold">© 2013 by The Public Theater​</span>
+                </div><!--footer_text-->
+                <div id="socialMediaLinks">
+                    <a href="https://www.facebook.com/publictheater" target="_blank">
+                        <img src="/Images/fb.jpeg" /></a>
+                    <a href="https://twitter.com/PublicTheaterNY" target="_blank">
+                        <img src="/Images/twitter.jpeg" /></a>
+                    <a href="http://www.youtube.com/ThePublicTheater" target="_blank">
+                        <img src="/Images/youtube.jpeg" /></a>
+                    <a href="http://publictheater.wordpress.com/" target="_blank">
+                        <img src="/Images/blogspot.jpeg" /></a>
+                </div><!--socialMediaLinks-->
+            </div><!--footer-->
+
+        </div><!--inner-->
+    </div><!--outer-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+    </script>
+
+    <script type="text/javascript">
+/*
+        $(document).ready(function () {
+            var h = $("#content").height() + 250 ;
+            $("#footer").css({
+               top: h
+        })});
+        
+*/
+        function getParameterByName(name) {
+            name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                results = regex.exec(location.search);
+            return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+        $(function () {
+            $(".item2").hover(function () {
+                var pos = $(this).position();
+
+                // .outerWidth() takes into account border and padding.
+                var width = $(this).outerWidth();
+                var width2 = $("item2Overlay").outerWidth();
+                // var offset = width / 2 - width2 / 2;
+                var offset = -60;//while the above line doesnt work
+                $(".item2Overlay").fadeIn().css({
+                    position: "absolute",
+                    top: (pos.top + 30) + "px",
+                    left: (pos.left + offset) + "px",
+             
+                });
+            }, function () {
+                $(".item2Overlay").fadeOut();
+            });
+        });
+        $(function () {
+            $(".item3").hover(function () {
+                var pos = $(this).position();
+
+                // .outerWidth() takes into account border and padding.
+                var width = $(this).outerWidth();
+                var width2 = $("item3Overlay").outerWidth();
+                // var offset = width / 2 - width2 / 2;
+                var offset = -60;//while the above line doesnt work
+                $(".item3Overlay").fadeIn().css({
+                    position: "absolute",
+                    top: (pos.top + 30) + "px",
+                    left: (pos.left + offset) + "px",
+                 
+                });
+            }, function () {
+                $(".item3Overlay").fadeOut();
+            });
+        });
+        $(function () {
+            $(".item4").hover(function () {
+                var pos = $(this).position();
+
+                // .outerWidth() takes into account border and padding.
+                var width = $(this).outerWidth();
+                var width2 = $("item4Overlay").outerWidth();
+                // var offset = width / 2 - width2 / 2;
+                var offset = -60;//while the above line doesnt work
+                $(".item4Overlay").fadeIn().css({
+                    position: "absolute",
+                    top: (pos.top + 30) + "px",
+                    left: (pos.left + offset) + "px",
+             
+                });
+            }, function () {
+                $(".item4Overlay").fadeOut();
+            });
+        });
+        $(function () {
+            $(".item5").hover(function () {
+                var pos = $(this).position();
+
+                // .outerWidth() takes into account border and padding.
+                var width = $(this).outerWidth();
+                var width2 = $("item5Overlay").outerWidth();
+                // var offset = width / 2 - width2 / 2;
+                var offset = -60;//while the above line doesnt work
+                $(".item5Overlay").fadeIn().css({
+                    position: "absolute",
+                    top: (pos.top + 30) + "px",
+                    left: (pos.left + offset) + "px",
+          
+                });
+            }, function () {
+                $(".item5Overlay").fadeOut();
+            });
+        });
+        var message = getParameterByName("message");
+        if (message != null) {
+            $("#message").html(message);
+            $("#message").fadeTo(1000, 1).delay(4000).fadeTo(3000, 0);
+        }
+    </script>
+</body>
+</html>

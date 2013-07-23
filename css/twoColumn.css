@@ -1,0 +1,42 @@
+﻿#leftcontent {
+float:left;
+width:450px;
+} 
+#rightcontent {
+float:left;
+width:450px;
+margin-left:40px;
+}
+
+.left_content_img {
+    margin: 20px 0 0 20px;
+    width: 245px;
+}
+
+#loveslabours #rightcontent {
+    text-align: center;
+}
+
+#gala #leftcontent {
+    width: 303px;
+}
+#gala #rightcontent {
+    width: 657px;
+    margin:90px 0 0 0;
+}
+
+#tempest #leftcontent{
+    width: 386px;
+}
+#tempest #rightcontent {
+    width: 644px;
+    margin:80px 0 0 -50px;
+}
+
+#fallfordance #leftcontent {
+    width:275px;
+}
+#fallfordance #rightcontent {
+    width:663px;
+    margin:80px 0 0 10px;
+}

@@ -1,0 +1,240 @@
+﻿body {
+    font: normal normal normal 16px/1.4em Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #000000;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1.4em;
+}
+img {
+    border: none;
+}
+p {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#0088CB;
+}
+
+#inner {
+    width: 980px;
+    float: none !important;
+    margin: 0 auto;
+}
+.headerImageDiv {
+    margin-left: -4px;
+}
+#menu {
+    margin-top: 0px;
+}
+#menu a {
+    font-weight: normal;
+}
+
+#footer {
+    padding-top: 70px;
+    margin-bottom:20px;
+    clear:both;
+}
+#footer_text {
+    float:left;
+    width:50%;
+    font-size:13px;
+}
+#socialMediaLinks {
+    float:left;
+    width:50%;
+    text-align:right;
+}
+
+#publicforum {
+    width: 715px;
+}
+
+img.banner {
+    margin-bottom:10px;
+}
+
+.padding_top_50px {
+    padding-top: 50px;
+}
+.margin_10px {
+    margin: 10px 0;
+}
+.margin_20px {
+    margin: 20px 0;
+}
+.margin_top_30px {
+    margin: 30px 0 0 0;
+}
+.font_10px {
+    font-size: 10px;
+    line-height:14px;
+}
+.font_13px {
+    font-size: 13px;
+}
+.font_15px {
+    font-size: 15px;
+}
+.font_21px {
+    font-size: 21px;
+    line-height:25px;
+}
+.font_24px {
+    font-size: 24px;
+    line-height:28px;
+}
+.font_28px {
+    font-size: 28px;
+    line-height:32px;
+}
+.color_3 {
+    color: #0088CB;
+}
+.black {
+    color: #000000;
+}
+.red {
+    color: #ED1C24;
+}
+.bold {
+    font-weight: bold;
+}
+.notbold {
+    font-weight: normal;
+}
+.italic {
+    font-style: italic;
+}
+.underline {
+    text-decoration: underline;
+}
+.lowercase {
+    text-transform: none;
+}
+.text_center {
+    text-align: center;
+}
+.text_right {
+    text-align: right;
+}
+
+.blackbox {
+    background-color: black;
+    color: white;
+    font-size: 23px;
+    padding: 8px 20px;
+    margin-top:20px;
+    width:200px;
+}
+.redbox {
+    background-color: red;
+    color: white;
+    font-size: 21px;
+    padding: 4px 10px;
+    text-transform:none;
+    font-weight:normal;
+    margin-bottom:5px;
+}
+.redbox:hover {
+    background-color: black;
+}
+#calendar .blackbox {
+    width: 140px;
+}
+#about_default .blackbox {
+    width: 334px;
+}
+.about .blackbox {
+    width:165px;
+}
+.content {
+    margin:30px 0 0 30px;
+}
+.about p, .tickets p {
+    margin-bottom:20px;
+}
+#faq, #default_planvisit {
+    padding-right:75px;
+}
+#faq p, #default_planvisit p, #support p {
+    margin-bottom:15px;
+}
+#faq a {
+    text-transform:none;
+}
+
+#events_default {
+    margin:20px 0 0 200px;
+}
+#calendar img {
+    margin:20px 0 0 250px;
+}
+#events_default table img, #calendar img {
+    border:solid 2px #000000;
+}
+#gala .blackbox {
+    width: 270px;
+}
+#tempest .blackbox {
+    width: 354px;
+}
+#location {
+    padding-right:55px;
+}
+#food .content {
+    padding: 0 100px;
+}
+#food img {
+    display: block;
+    margin: 0 auto;
+}
+#food table {
+    font-family: "Open Sans","sans-serif";
+}
+#rain {
+    padding-right:200px;
+}
+.tickets .blackbox {
+    width: 325px;
+}
+#tickets_default .content {
+    width: 800px;
+}
+
+#tickets_accessible .blackbox {
+    width: 400px;
+}
+#tickets_accessible .content,  #support .content {
+    width: 900px;
+}
+#support table {
+    margin-top:25px;
+    line-height:1.6em;
+}
+.video-thumbnail {
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 800;
+}
+input[type="submit"], .ui-dialog .ui-dialog-buttonpane button
+{
+    background-color: #444;
+    font-size: 1.75em;
+    color: White;
+    text-transform: uppercase;
+    padding: 2px;
+    border: 0;
+}
+input[type="submit"]:hover, .ui-dialog .ui-dialog-buttonpane button:hover
+{
+   background-color: #666;
+}

@@ -1,0 +1,12 @@
+﻿body {
+}
+#left  {
+    float:left;
+}
+#right {
+    width:600px;
+    float: left;
+}
+#outside {
+overflow:hidden;
+}

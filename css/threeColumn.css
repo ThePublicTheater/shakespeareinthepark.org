@@ -1,0 +1,12 @@
+﻿#leftcontent, #centercontent, #rightcontent {
+    float:left;
+}
+#leftcontent, #rightcontent {
+    width:212px;
+}
+#centercontent {
+    width:450px;
+    margin:0 10px;
+    padding:0 10px;
+    text-align:center;
+}

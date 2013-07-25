@@ -4,21 +4,10 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="defaultMain" style="text-align: center;">
-        <img src="http://static.wixstatic.com/media/939e29_98ef7396e3e6263aef89545e8fa8f713.jpg_srz_757_468_75_22_0.50_1.20_0.00_jpg_srz" height="468" width="757" class="banner" />
+        <img src="Images/main.gif" height="480" width="720" class="banner" />
         <p class="bold">​The Public Theater's Free Shakespeare in the Park program is</p>
         <p class="bold">"the most beloved of the city’s summer theater rites and a cherished New York institution."​</p>
         <p class="bold"><em>&ndash; The New York Times​</em></p>
-        <br />
-        <span class="font_21px bold">Coming Soon!</span>
-        <p class="font_24px margin_10px">
-            <span class="color_3">
-                <span class="bold">
-                    <a href="http://www.shakespeareinthepark.org/#!loveslabourslost/cq8d">LOVE'S LABOUR'S LOST</a>​
-                </span>
-            </span>
-        </p>
-        <span class="font_21px bold">July 23 - August 18​</span>
-        <br />
         <br />
         <span class="bold">Over the past 50 years, more than 5 million people<br />
                 have enjoyed productions at the Delacorte Theater in Central Park for free.​​</span>
@@ -27,7 +16,7 @@
             <span class="red bold">Help keep Shakespeare in the Park performances free for all!</span>
             <br />
 
-            <span class="bold"><a href="/support">Click here </a>to learn more.
+            <span class="bold"><a href="content/support">Click here </a>to learn more.
             </span>
 
         </p>
@@ -40,7 +29,7 @@
             </span>
 
         </p>
-        <p class="font_10px" style="margin-top:20px;">​Pictured above: The cast of The Comedy of Errors. Photo by Joan Marcus.​</p>
+        <p class="font_10px" style="margin-top:20px;">​​Pictured above: Bryce Pinkham, Colin Donnell, Lucas Near-Verbrugghe. Photo by Joan Marcus.​​</p>
         <img src="Images/sponsors.jpeg" width="472" height="379" />
     </div>
 

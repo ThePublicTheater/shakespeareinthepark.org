@@ -15,14 +15,14 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-
+    
+    <!-- these two lines are for the google maps api on the location page -->
+    
     <div id="outer">
         <div id="inner">
 
-
             <asp:Panel ID="message" runat="server" CssClass="messageDiv">
             </asp:Panel>
-
 
             <div class="headerImageDiv">
                 <a href="http:\\www.publictheater.org">
@@ -46,7 +46,7 @@
                                     <div class="item2Overlay">
                                         <table>
                                             <tr><td><a href="/content/shows and events/thecomedyoferrors.aspx">The Comedy of Errors</a></td></tr>
-                                            <tr><td> <a href="/content/shows and events/loveslabourslost.aspx">Love's Labour's Lost, a New Musical </a></td></tr>
+                                            <tr><td> <a href="/content/shows and events/loveslabourslost.aspx">Love's Labour's Lost</a></td></tr>
                                             <tr><td><a href="/content/shows and events/gala.aspx">Public Theater Gala </a></td></tr>
                                             <tr><td><a href="/content/shows and events/publicForum.aspx">Public Forum </a></td></tr>
                                             <tr><td><a href="/content/shows and events/tempest.aspx">Public Works' Tempest </a></td></tr>
@@ -71,7 +71,7 @@
                             </td>
                             <td>
                                 <div class="item4">
-                                    <a href="/contents/Plan Your Visit/">Plan Your Visit</a>
+                                    <a href="/content/Plan Your Visit">Plan Your Visit</a>
                                     <div class="item4Overlay">
                                         <table>
                                             <tr><td><a href="/Content/Plan Your Visit/calendar.aspx">Calendar</a></td></tr>
@@ -130,9 +130,8 @@
 
         </div><!--inner-->
     </div><!--outer-->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
-    </script>
 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript">
 /*
         $(document).ready(function () {

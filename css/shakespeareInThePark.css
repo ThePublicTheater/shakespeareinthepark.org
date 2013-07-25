@@ -185,7 +185,16 @@ img.banner {
     width: 354px;
 }
 #location {
-    padding-right:55px;
+    width:880px;
+}
+#ContentPlaceHolder1_GoogleMap {
+    margin-left: 150px;
+    min-height: 445px;
+    width: 615px;
+}
+.googlemarker {
+    font-family: 'Times New Roman';
+    font-size: 14px;
 }
 #food .content {
     padding: 0 100px;
